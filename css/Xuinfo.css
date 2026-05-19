@@ -95,7 +95,6 @@ h1 {
   color: #555;
   line-height: 1.8;
 }
-
 .links-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -127,6 +126,14 @@ h1 {
   color: #ccc;
   transform: translateY(-2px);
 }
+.playlist-wrap {
+  margin-top: 1rem;
+}
+
+.spotify-iframe {
+  border-radius: 12px;
+  border: 0;
+}
 
 .footer-quote {
   margin-top: 3rem;
@@ -138,3 +145,4 @@ h1 {
   letter-spacing: 0.1em;
   font-style: italic;
 }
+
